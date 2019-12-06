@@ -1,4 +1,5 @@
 {
+    "name": "buddhi-editor",
     "version": "0.0.1",
     "description": "Customizable WYSIWIG Editor.",
     "main": "dist/main.js",

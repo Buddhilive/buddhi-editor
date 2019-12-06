@@ -177,7 +177,7 @@ class buddhiEditor extends LitElement {
         //console.log(postData);
     }
 
-    getEditorData(loadTitle, loadContent) {
+    setEditorData(loadTitle, loadContent) {
         this.querySelector('.buddhi--post-title-input').value = loadTitle;
         this.querySelector('.buddhi--editor').innerHTML = loadContent;
         this.editorFocus(this.querySelector('.buddhi--editor'));
